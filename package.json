@@ -1,0 +1,28 @@
+{
+  "name": "octoherd-script-create-issue",
+  "version": "0.0.0-development",
+  "type": "module",
+  "exports": "./script.js",
+  "bin": {
+    "octoherd-script-create-issue": "./cli.js"
+  },
+  "description": "Creates an issue on each repo when a certain condition or group of conditions are accomplished",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node script.js"
+  },
+  "repository": "https://github.com/oscard0m/octoherd-script-create-issue",
+  "keywords": [
+    "octoherd-script"
+  ],
+  "author": "Oscar Dominguez <dominguez.celada@gmail.com> (https://www.oscardom.dev)",
+  "license": "ISC",
+  "dependencies": {
+    "@octoherd/cli": "^3.4.8"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
